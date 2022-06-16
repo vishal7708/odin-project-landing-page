@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Roboto:wght@400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding: 20px 0;
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #f9faf8;
+    margin-left: 150px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.navbar {
+    margin-right: 150px;
+}
+
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.upper_banner {
+    /* background-color: #1f2937; */
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    height: 450px;
+}
+
+.left_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 40%;
+    height: 300px;
+    margin: 75px 0 75px 7%;
+}
+
+.left_text h2 {
+    padding: 0 0 10px 0;
+    margin-left: -140px;
+    text-align: left;
+    text-align-last: ;
+}
+
+.left_text p {
+    padding: 0 0 20px 0;
+    color: #e5e7eb;
+}
+#sign_up_btn {
+    margin-left: -295px;
+    border: 0;
+    background-color: #3882f6;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 10px 30px;
+
+}
+
+
+.upper_banner .left_text h2 {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+
+}
+
+.right_img {
+    border: 1px solid pink;
+    width: 40%;
+    margin: 75px 7% 75px 0;
+    height: 300px;
+    background: pink;
+}
+
+.ppl_info {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img_div {
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+}
